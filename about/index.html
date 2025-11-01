@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Giới thiệu lớp 9A</title>
+  <link rel="stylesheet" href="../styles/main.css"/>
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+  <audio id="bg-audio" src="https://on.soundcloud.com/ZIYER2mvYWxNNzJ8jy" preload="auto"></audio>
+
+  <header>
+    <nav class="nav">
+      <div class="brand">
+        <img class="logo" src="../assets/icons/logo.svg" alt="9A logo"/>
+        <span>9A • STEM Journey</span>
+      </div>
+      <ul>
+        <li><a href="/">Trang chủ</a></li>
+        <li><a href="/about/">Giới thiệu</a></li>
+        <li><a href="/gallery/">Kỷ niệm</a></li>
+        <li><a href="/subjects/">Môn học</a></li>
+        <li><a href="/teachers/">Thầy cô</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="card reveal">
+      <h1>Giới thiệu lớp 9A</h1>
+      <p><strong>29 học sinh</strong> – đoàn kết, năng động, luôn sẵn sàng khám phá tri thức mới và cùng nhau tiến bộ.</p>
+      <p>Lớp 9A đẩy mạnh phong trào học tập, nghiên cứu khoa học thông qua các dự án nhỏ: mô hình robot đơn giản, trồng cây thông minh, đo chất lượng không khí quanh trường, và câu lạc bộ “Mini Lab”. Những hoạt động này giúp các bạn kết nối kiến thức Toán – Lý – Hóa – Sinh với đời sống.</p>
+      <p>Mô hình STEM của lớp tập trung vào <em>tư duy giải quyết vấn đề</em>, <em>làm việc nhóm</em>, và <em>trình bày kết quả</em>. Mỗi học kỳ, lớp tổ chức “Ngày Hội STEM” để triển lãm sản phẩm và chia sẻ trải nghiệm.</p>
+    </div>
+
+    <div class="card reveal">
+      <h2>Khẩu hiệu lớp</h2>
+      <p><strong>Khẩu hiệu:</strong> Học chăm – Nghĩ khác – Làm thật!</p>
+      <p><strong>Thành tích:</strong> Giải Nhì cuộc thi Sáng tạo khoa học cấp trường, top 3 phong trào học tập khối 9, và nhiều giải chuyên đề ở các môn Toán – Hóa – Tin.</p>
+    </div>
+
+    <div class="card reveal">
+      <h2>Công thức toán học (MathJax)</h2>
+      <p>Phương trình nổi tiếng năng lượng khối lượng: \\(E = mc^2\\)</p>
+      <p>Giải phương trình bậc hai: \\(x^2 - 3x + 2 = 0\\)</p>
+    </div>
+
+    <div class="card reveal">
+      <blockquote>
+        “Tuổi học trò như trang giấy trắng,<br/>
+        Ghi đầy ký ức chẳng thể phai.”
+      </blockquote>
+      <p style="margin-top: 12px;">“Dream big, work hard, stay humble.”</p>
+    </div>
+  </main>
+
+  <footer>
+    Lớp 9A - năm học 2025-2026
+  </footer>
+
+  <button id="backToTop" aria-label="Lên đầu trang">↑</button>
+
+  <!-- MathJax -->
+  <script>
+    window.MathJax = { tex: { inlineMath: [['\\(','\\)'], ['$', '$']] } };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+  <script src="../scripts/main.js"></script>
+</body>
+</html>
